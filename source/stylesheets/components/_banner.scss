@@ -1,0 +1,24 @@
+/* code your banner design here */
+.banner{
+  background-image: linear-gradient(-225deg, rgba(10,10,10,0.6), rgba(10,10,10,0.6)), url('../images/notebook.jpeg');
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  padding: 120px;
+  color: #FFFFFF;
+  z-index: 0;
+}
+
+.banner-shadow{
+    background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+
+
+
