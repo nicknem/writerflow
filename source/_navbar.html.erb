@@ -1,33 +1,18 @@
-<header class="navbar is-shadowed headroom headroom--pinned headroom--top">
-  <div class="container navbar-container">
-  <div class="is-flex">
-    <div class="navbar-logo">
-
-      <!-- LOGO -->
-      <% link_to "/" do %>
-        <span class="navbar-logo-typo">Writerflow  </span>
-      <% end %>
-    </div>
-
-
-    <!-- useless so far -->
-    <div class="navbar-menu">
-      <div class="navbar-menu-item">
-        <%= link_to "Contact", "#footer" %>
+<div class="navbar-writerflow">
+  <div class="container" id="nav-container">
+    <div class="row" id="mobile-row">
+      <div class="col-xs-6 col-sm-3">
+          <div id="logo-holder">
+            <p>Writerflow</p>
+          </div>
       </div>
-      <hr class="a-separator">
-
-      <!-- team presentation page -->
-      <div class="navbar-menu-item">
-      <!-- Make this into a button -->
-        <%= link_to "Join", "#footer" %>
+      <div class="col-xs-6 col-sm-9">
+        <div class="hidden-xs" id="menu-holder">
+          <!-- DESKTOP MENU -->
+          <ul class="list-inline" id="menu">
+          </ul>
+        </div>
       </div>
     </div>
-
   </div>
-
-
-
-
-  </div>
-</header>
+</div>
